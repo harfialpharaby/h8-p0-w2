@@ -57,8 +57,8 @@ END FOR
 SET siswa WITH 1
 FOR siswa TO 40
     IF siswa EQUALS 'kuku panjang' THEN
-        DISPLAY 'dihukum'
+        DISPLAY 'Hukum Siswa'
     ELSE
-        DISPLAY 'tidak dihukum'
+        DISPLAY 'Puji Siswa'
     END IF
 END FOR

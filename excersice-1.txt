@@ -55,9 +55,9 @@ END FOR
 
 // PSEUDOCODE
 SET siswa WITH 1
-SET kuku_siswa
+SET kuku_siswa TO ANY VALUE
 FOR siswa TO 40 INCREMENT 1
-    IF kuku_siswa EQUALS 'kuku panjang' THEN
+    IF kuku_siswa ON siswa EQUALS 'kuku panjang' THEN
         DISPLAY 'Hukum Siswa'
     ELSE
         DISPLAY 'Puji Siswa'

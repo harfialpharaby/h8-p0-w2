@@ -1,7 +1,6 @@
 // contoh input
-var nama = '';
-var peran = 'tes';
-var hasil;
+var nama = 'Harfi';
+var peran = '';
 
 if(nama === '') {
     console.log('Nama harus diisi!');

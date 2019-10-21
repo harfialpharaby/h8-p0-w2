@@ -1,6 +1,6 @@
 // contoh input
-var nama = 'Harfi';
-var peran = 'Tabib';
+var nama = '';
+var peran = '';
 var hasil;
 
 if(nama === '' && peran === '') {
@@ -16,5 +16,7 @@ if(nama === '' && peran === '') {
         console.log(`${hasil} kamu akan membantu temanmu yang terluka.`);
     } else if (peran.toUpperCase() === 'PENYIHIR') {
         console.log(`${hasil} ciptakan keajaiban yang membantu kemenanganmu!`);
+    } else {
+        console.log(`${hasil} maaf peran ini belum tersedia`); 
     }
 }

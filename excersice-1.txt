@@ -38,7 +38,7 @@ END IF
 
 // PSEUDOCODE
 SET pakaian EQUALS 0
-FOR pakaian TO 20
+FOR pakaian TO 20 INCREMENT 1
     CALCULATE pakaian PLUS 1 STORE IN pakaian
     IF pakaian EQUALS 20 THEN
         DISPLAY pakaian
@@ -55,8 +55,9 @@ END FOR
 
 // PSEUDOCODE
 SET siswa WITH 1
-FOR siswa TO 40
-    IF siswa EQUALS 'kuku panjang' THEN
+SET kuku_siswa
+FOR siswa TO 40 INCREMENT 1
+    IF kuku_siswa EQUALS 'kuku panjang' THEN
         DISPLAY 'Hukum Siswa'
     ELSE
         DISPLAY 'Puji Siswa'

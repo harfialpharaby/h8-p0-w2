@@ -20,11 +20,10 @@ function checkerBoard(num) {
     hasil = '';
     for (let i = 0; i < num; i++) {
       for (let j = 0; j < num; j++) {
-        if(j==0){
-          i%2==0 ? hasil+='*' : hasil+=' ';
-        } else {
-          hasil[i][j-1] == '*' ? hasil+=' ' : hasil+='*';
-        }
+        // jika i ganjil maka semua j ganjil adalah *
+        // jika i genap maka semua j genap adalah *
+        // selain itu adalah blank space
+        (i%2==0 && j%2==0) || (i%2!=0 && j%2!=0) ? hasil+='*' : hasil+=' ';
       }
       hasil += '\n';
     }
